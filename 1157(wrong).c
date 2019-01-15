@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <string.h>
-#define MAX 1000000
+#define MAX 1000000+1
 int main() {
-	char arr[MAX];
-	char alphabet[26] = { 0, };
+	char arr[MAX] = { 0, };
+	unsigned char alphabet[26] = { 0, };
 	scanf("%s", &arr);
 	int len = strlen(arr);
 	int i = 0, j=0, n = 0, N=0;
