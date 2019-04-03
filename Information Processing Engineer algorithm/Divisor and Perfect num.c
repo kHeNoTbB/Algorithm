@@ -13,5 +13,4 @@ void main() {
 		}
 	}
 	printf("%d\n", TN);
-	return 0;
 }

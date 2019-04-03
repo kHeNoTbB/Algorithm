@@ -13,5 +13,4 @@ void main() {
 		Y = M;
 	}
 	printf("%d\n", Y);
-	return 0;
 }

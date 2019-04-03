@@ -18,6 +18,4 @@ void main() {
 			printf("%d\t", A[i][j]);
 		printf("\n");
 	}
-
-	return 0;
 }

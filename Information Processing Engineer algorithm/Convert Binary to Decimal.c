@@ -23,6 +23,4 @@ void main() {
 	}
 	D *= SIGN;
 	printf("%d\n", D);
-
-	return 0;
 }
