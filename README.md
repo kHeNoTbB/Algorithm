@@ -1,19 +1,12 @@
-### [정렬]()
+### 1. [정렬]()
 
-### [DP(Dynamic Programming, 다이나믹 프로그래밍)](https://github.com/kHeNoTbB/Algorithm/tree/master/DP) 
-* [이친수](https://github.com/kHeNoTbB/Algorithm/blob/master/baekjoon/2193.c)
-* [연속합](https://github.com/kHeNoTbB/Algorithm/blob/master/baekjoon/1912.c)
+### 2. [DP(Dynamic Programming, 다이나믹 프로그래밍)](https://github.com/kHeNoTbB/Algorithm/tree/master/DP) 
 
----
-
-
-### [Exhaustive Search(완전탐색)](https://github.com/kHeNoTbB/Algorithm/tree/master/Exhaustive%20Search)
+### 3. [Exhaustive Search(완전탐색)](https://github.com/kHeNoTbB/Algorithm/tree/master/Exhaustive%20Search)
 ##### Brute-force
-* [한수](https://github.com/kHeNoTbB/Algorithm/blob/master/baekjoon/1065.c)
 ##### Bit-mask
-* [집합](https://github.com/kHeNoTbB/Algorithm/blob/master/baekjoon/11723.c)
 ##### permutation(순열)
 ##### Backtracking
 ##### BFS
 
-### [Greedy Algorithm(탐욕 알고리즘)](https://github.com/kHeNoTbB/Algorithm/tree/master/Greedy)
+### 4. [Greedy Algorithm(탐욕 알고리즘)](https://github.com/kHeNoTbB/Algorithm/tree/master/Greedy)
