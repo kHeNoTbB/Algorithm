@@ -15,3 +15,5 @@
 ##### permutation(순열)
 ##### Backtracking
 ##### BFS
+
+### [Greedy Algorithm(탐욕 알고리즘)](https://github.com/kHeNoTbB/Algorithm/tree/master/Greedy)
