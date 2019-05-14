@@ -1,4 +1,4 @@
-### 1. [정렬]()
+### 1. [정렬](https://github.com/kHeNoTbB/Algorithm/tree/master/Sort)
 &nbsp;&nbsp;&nbsp;&nbsp; Selection Sort, Bubble Sort, Quick Sort, Insertion Sort, Shell Sort, Merge Sort, Heap Sort, Radix Sort
 
 ### 2. [DP(Dynamic Programming, 다이나믹 프로그래밍)](https://github.com/kHeNoTbB/Algorithm/tree/master/DP) 
