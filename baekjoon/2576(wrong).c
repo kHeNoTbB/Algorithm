@@ -17,7 +17,7 @@ int main() {
 			printf("%d\n", a[i]);
 			break;
 		}
-		if (i == 6 && a[i] % 2 == 0) printf("-1");
+		if (i == 6 && a[i] % 2 == 0) printf("-1"); //그냥 sum==0으로 하면 되잖아;
 	}
 
 
