@@ -1,3 +1,5 @@
+### 0. [수학](https://github.com/kHeNoTbB/Algorithm/tree/master/Math)
+
 ### 1. [정렬](https://github.com/kHeNoTbB/Algorithm/tree/master/Sort)
 &nbsp;&nbsp;&nbsp;&nbsp; Selection Sort, Bubble Sort, Quick Sort, Insertion Sort, Shell Sort, Merge Sort, Heap Sort, Radix Sort
 
