@@ -1,9 +1,11 @@
 ### 0. [수학](https://github.com/kHeNoTbB/Algorithm/tree/master/Math)
 
 ### 1. [정렬](https://github.com/kHeNoTbB/Algorithm/tree/master/Sort)
-&nbsp;&nbsp;&nbsp;&nbsp; Selection Sort, Bubble Sort, Quick Sort, Insertion Sort, Shell Sort, Merge Sort, Heap Sort, Radix Sort
+&nbsp;&nbsp;&nbsp;&nbsp; Selection Sort, Bubble Sort, Insertion Sort
+Merge Sort, Quick Sort, Heap Sort, 
+Shell Sort, Radix Sort, Counting Sort
 
-### 2. [DP(Dynamic Programming, 다이나믹 프로그래밍)](https://github.com/kHeNoTbB/Algorithm/tree/master/DP) 
+### 2. [DP(Dynamic Programming, 동적 계획법)](https://github.com/kHeNoTbB/Algorithm/tree/master/DP) 
 
 ### 3. [Exhaustive Search(완전탐색)](https://github.com/kHeNoTbB/Algorithm/tree/master/Exhaustive%20Search)
 ##### &nbsp;&nbsp;&nbsp;&nbsp; Brute-force
