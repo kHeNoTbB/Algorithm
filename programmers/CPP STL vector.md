@@ -56,6 +56,42 @@
 	  cout << v.back();  //가장 끝 원소인 50이 출력됨
     
 
+#### 3. 내가 풀어서 와 닿는 vector 예제
+> 수를 담고 있는 배열 arr의 평균값을 return하는 함수, solution을 완성해보세요.
+
+    #include <string>
+    #include <vector>
+
+    using namespace std;
+
+    double solution(vector<int> arr) {
+        double answer = 0;
+        double total=0;
+        int size=arr.size();
+        for (vector<int>::iterator iter = arr.begin(); iter != arr.end(); iter++)
+            total+=*iter;
+        answer=total/size;
+        return answer;
+    }
+
+vector<int>::iterator iter = arr.begin(); iter != arr.end(); iter++
+	
+이 부분이 학습 최고 활용 부분이 아닐까 싶다ㅋㅋㅋ
+ 근데.. 사이즈 측정 했으니 겸사겸사 size 활용 가능할거 같다...(?)
+
+    #include <string>
+    #include <vector>
+
+    using namespace std;
+
+    double solution(vector<int> arr) {
+        double answer = 0;
+         double total=0;
+        int size=arr.size();
+        for (int i=0; i<size; i++) total+=arr[i];
+    	    answer=total/size;
+        return answer;
+    }
 
 ---
 > 읽어보면 좋은 참고 글 https://blockdmask.tistory.com/70
