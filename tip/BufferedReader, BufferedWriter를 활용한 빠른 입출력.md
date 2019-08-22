@@ -5,16 +5,16 @@
 * 또한, InputStreamReader / OutputStreamWriter 를 같이 사용하면, 입출력 스트림으로부터 미리 버퍼에 데이터를 갖다 놓기 때문에 효율적인 입출력이 가능하다.
 
 ## BufferedReader를 통한 입력
-public static void main(String[] args) throws IOException {
-		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in)); //선언
+    public static void main(String[] args) throws IOException {
+		    BufferedReader bf = new BufferedReader(new InputStreamReader(System.in)); //선언
 		
-		//String
-		String s = bf.readLine();
-		System.out.println(s);
+		    //String
+		    String s = bf.readLine();
+		    System.out.println(s);
 		
-		//Integer
-		int i = Integer.parseInt(bf.readLine());
-		System.out.println(i);
+		    //Integer
+		    int i = Integer.parseInt(bf.readLine());
+		    System.out.println(i);
 * 본래 입력에 사용했던 Scanner는 space와 enter 모두 경계로 인식하기 때문에, 입력받은 데이터를 가공하기에 편리했다.
 * 하지만, BufferedReader는 Enter만 경계로 인식하며, 데이터는 String으로 고정된다.
 * 따라서 작업속도 효율면에서 월등하지만, 형변환 등 데이터를 가공해야 하는 어려움이 생긴다.
