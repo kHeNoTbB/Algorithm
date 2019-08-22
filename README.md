@@ -4,7 +4,7 @@
 
 
 ## 1. [수학](https://github.com/kHeNoTbB/Algorithm/tree/master/Math)
-### 1) [Sort, 정렬] (https://github.com/kHeNoTbB/Algorithm/tree/master/Sort)
+### 1) [Sort, 정렬](https://github.com/kHeNoTbB/Algorithm/tree/master/Sort)
 
 ## 2. [DP(Dynamic Programming, 동적 계획법)](https://github.com/kHeNoTbB/Algorithm/tree/master/DP) 
 
