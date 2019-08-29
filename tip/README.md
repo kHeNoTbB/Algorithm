@@ -8,4 +8,5 @@
 ## 응용
 * [Palindrome,회문](https://github.com/kHeNoTbB/Algorithm/blob/master/tip/Palindrome%2C%ED%9A%8C%EB%AC%B8.md)
 * [좌표 활용하기](https://github.com/kHeNoTbB/Algorithm/blob/master/tip/%EC%A2%8C%ED%91%9C%20%ED%99%9C%EC%9A%A9%ED%95%98%EA%B8%B0.md)
+* [객체 정렬하기](https://github.com/kHeNoTbB/Algorithm/blob/master/tip/%EA%B0%9D%EC%B2%B4%20%EC%A0%95%EB%A0%AC%ED%95%98%EA%B8%B0.md)
 * [자리수 더하기](https://github.com/kHeNoTbB/Algorithm/blob/master/tip/%EC%9E%90%EB%A6%AC%EC%88%98%20%EB%8D%94%ED%95%98%EA%B8%B0.md)
