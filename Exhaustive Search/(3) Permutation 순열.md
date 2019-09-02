@@ -1,5 +1,8 @@
 # Permutation 순열
 * 서로 다른 것들 중 몇 개를 뽑아서 한 줄로 나열하는 것
+* 1부터 N까지 M개를 순서대로 고른다. 즉, 순서가 있지만 중복이 없다.
+* 방법으로 **swap**과 **visited**가 있다.
+
 
 ## 단순하게 순열을 생성하는 방법
     public class loop {
@@ -18,7 +21,7 @@
     }
 * 위 코드는 { 1 2 3 } { 1 3 2 } { 2 1 3 } { 2 3 1 } { 3 1 2 } { 3 2 1 } 의 출력값을 갖는다.
 
-## 재귀 호출을 통해 순열을 생성하는 방법
+## swap을 이용한 순열
 
     import java.util.Arrays;
     public class recur {
@@ -46,3 +49,61 @@
     }
     
 * 위 코드는 다음과 같은 출력값을 갖는다. [1, 2, 3] [1, 3, 2] [2, 1, 3] [2, 3, 1] [3, 2, 1] [3, 1, 2]
+* 배열의 첫 값부터 순서대로 하나씩 바꾸며 모든 값을 한 번씩 swap한다.
+* 간단하고 코드도 깔끔하게 나오지만, 순열들의 순서가 보장되지 않는다.
+
+## visited 배열을 이용한 순열
+    import java.util.Scanner;
+
+    public class one_2 {
+	
+	    static void perm(int[] arr, int c, int[] result, boolean[] visited) {
+		    if (c == result.length) {
+			    for(int i=0; i<result.length; i++) {
+				    System.out.print(result[i]+" ");
+			    }System.out.println();
+			    return;
+		    }
+		    for (int i = 0; i < arr.length; i++) {
+
+			    if (!visited[i]) {
+				    visited[i] = true;
+				    result[c] = arr[i];
+				    perm(arr, c + 1, result, visited);
+				    visited[i] = false;
+			    }
+		    }
+
+	    }
+	    static int N;
+	    static int M;
+	    public static void main(String[] args) {
+		    Scanner sc = new Scanner(System.in);
+		    N = sc.nextInt();
+		    M = sc.nextInt();
+		
+		    int[] arr = new int[N];
+		    for(int i=1; i<=N; i++) {
+			    arr[i-1]=i;
+		    }
+		
+		    perm(arr, 0, new int[M], new boolean[N]);
+	    }
+    }
+* {1, 2, 3, 4} 를 2개씩 순열한 결과값은 무엇일까? 
+      
+      [1, 2]
+      [1, 3]
+      [1, 4]
+      [2, 1]
+      [2, 3]
+      [2, 4]
+      [3, 1]
+      [3, 2]
+      [3, 4]
+      [4, 1]
+      [4, 2]
+      [4, 3]
+* 위 결과 값에서, 공통점이 있나? for문으로 작성할 수 있을까? 우선 가장 왼쪽의 숫자들은 1~4로 순차 증가한다. 그리고 그 뒤에 값은 자기 자신의 값을 뺀 값이 순차적으로 증가한다. 그럼 for문으로 작성해볼까?
+
+      
