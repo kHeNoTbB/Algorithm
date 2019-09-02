@@ -1,4 +1,4 @@
-# Permutation 순열
+# [Permutation 순열](https://bcp0109.tistory.com/14)
 * 서로 다른 것들 중 몇 개를 뽑아서 한 줄로 나열하는 것
 * 1부터 N까지 M개를 순서대로 고른다. 즉, 순서가 있지만 중복이 없다.
 * 방법으로 **swap**과 **visited**가 있다.
