@@ -26,3 +26,20 @@
 		    combination(arr, 0, 0, new int[2]);
 	    }
     }
+
+# 중복 조합
+## 코드
+	static void mul_combination(int[] arr, int n, int c, int[] result) {
+		if(c==result.length) {
+			for(int i=0; i<result.length; i++) {
+				System.out.print(result[i]+ " ");
+			}System.out.println();
+			return;
+		}
+		if(n==arr.length) return;
+		
+			result[c] = arr[n];
+			mul_combination(arr, n, c+1, result);
+			mul_combination(arr, n+1, c, result);
+
+	}
