@@ -1,10 +1,10 @@
-# [Permutation ¼ø¿­](https://bcp0109.tistory.com/14)
-* ¼­·Î ´Ù¸¥ °Íµé Áß ¸î °³¸¦ »Ì¾Æ¼­ ÇÑ ÁÙ·Î ³ª¿­ÇÏ´Â °Í
-* 1ºÎÅÍ N±îÁö M°³¸¦ ¼ø¼­´ë·Î °í¸¥´Ù. Áï, ¼ø¼­°¡ ÀÖÁö¸¸ Áßº¹ÀÌ ¾ø´Ù.
-* ¹æ¹ýÀ¸·Î **swap**°ú **visited**°¡ ÀÖ´Ù.
+# [Permutation ìˆœì—´](https://bcp0109.tistory.com/14)
+* ì„œë¡œ ë‹¤ë¥¸ ê²ƒë“¤ ì¤‘ ëª‡ ê°œë¥¼ ë½‘ì•„ì„œ í•œ ì¤„ë¡œ ë‚˜ì—´í•˜ëŠ” ê²ƒ
+* 1ë¶€í„° Nê¹Œì§€ Mê°œë¥¼ ìˆœì„œëŒ€ë¡œ ê³ ë¥¸ë‹¤. ì¦‰, ìˆœì„œê°€ ìžˆì§€ë§Œ ì¤‘ë³µì´ ì—†ë‹¤.
+* ë°©ë²•ìœ¼ë¡œ **swap**ê³¼ **visited**ê°€ ìžˆë‹¤.
 
 
-## ´Ü¼øÇÏ°Ô ¼ø¿­À» »ý¼ºÇÏ´Â ¹æ¹ý
+## ë‹¨ìˆœí•˜ê²Œ ìˆœì—´ì„ ìƒì„±í•˜ëŠ” ë°©ë²•
     public class loop {
     	public static void main(String[] args) {
 	    	for(int i=1; i<=3; i++) {
@@ -19,9 +19,9 @@
 	    	}
     	}
     }
-* À§ ÄÚµå´Â { 1 2 3 } { 1 3 2 } { 2 1 3 } { 2 3 1 } { 3 1 2 } { 3 2 1 } ÀÇ Ãâ·Â°ªÀ» °®´Â´Ù.
+* ìœ„ ì½”ë“œëŠ” { 1 2 3 } { 1 3 2 } { 2 1 3 } { 2 3 1 } { 3 1 2 } { 3 2 1 } ì˜ ì¶œë ¥ê°’ì„ ê°–ëŠ”ë‹¤.
 
-## swapÀ» ÀÌ¿ëÇÑ ¼ø¿­
+## swapì„ ì´ìš©í•œ ìˆœì—´
 
     import java.util.Arrays;
     public class recur {
@@ -48,11 +48,11 @@
 	    }
     }
     
-* À§ ÄÚµå´Â ´ÙÀ½°ú °°Àº Ãâ·Â°ªÀ» °®´Â´Ù. [1, 2, 3] [1, 3, 2] [2, 1, 3] [2, 3, 1] [3, 2, 1] [3, 1, 2]
-* ¹è¿­ÀÇ Ã¹ °ªºÎÅÍ ¼ø¼­´ë·Î ÇÏ³ª¾¿ ¹Ù²Ù¸ç ¸ðµç °ªÀ» ÇÑ ¹ø¾¿ swapÇÑ´Ù.
-* °£´ÜÇÏ°í ÄÚµåµµ ±ò²ûÇÏ°Ô ³ª¿ÀÁö¸¸, ¼ø¿­µéÀÇ ¼ø¼­°¡ º¸ÀåµÇÁö ¾Ê´Â´Ù.
+* ìœ„ ì½”ë“œëŠ” ë‹¤ìŒê³¼ ê°™ì€ ì¶œë ¥ê°’ì„ ê°–ëŠ”ë‹¤. [1, 2, 3] [1, 3, 2] [2, 1, 3] [2, 3, 1] [3, 2, 1] [3, 1, 2]
+* ë°°ì—´ì˜ ì²« ê°’ë¶€í„° ìˆœì„œëŒ€ë¡œ í•˜ë‚˜ì”© ë°”ê¾¸ë©° ëª¨ë“  ê°’ì„ í•œ ë²ˆì”© swapí•œë‹¤.
+* ê°„ë‹¨í•˜ê³  ì½”ë“œë„ ê¹”ë”í•˜ê²Œ ë‚˜ì˜¤ì§€ë§Œ, ìˆœì—´ë“¤ì˜ ìˆœì„œê°€ ë³´ìž¥ë˜ì§€ ì•ŠëŠ”ë‹¤.
 
-## visited ¹è¿­À» ÀÌ¿ëÇÑ ¼ø¿­
+## visited ë°°ì—´ì„ ì´ìš©í•œ ìˆœì—´
     import java.util.Scanner;
 
     public class one_2 {
@@ -90,7 +90,7 @@
 		    perm(arr, 0, new int[M], new boolean[N]);
 	    }
     }
-* {1, 2, 3, 4} ¸¦ 2°³¾¿ ¼ø¿­ÇÑ °á°ú°ªÀº ¹«¾ùÀÏ±î? 
+* {1, 2, 3, 4} ë¥¼ 2ê°œì”© ìˆœì—´í•œ ê²°ê³¼ê°’ì€ ë¬´ì—‡ì¼ê¹Œ? 
       
       [1, 2]
       [1, 3]
@@ -104,7 +104,73 @@
       [4, 1]
       [4, 2]
       [4, 3]
-* À§ °á°ú °ª¿¡¼­, °øÅëÁ¡ÀÌ ÀÖ³ª? for¹®À¸·Î ÀÛ¼ºÇÒ ¼ö ÀÖÀ»±î? ¿ì¼± °¡Àå ¿ÞÂÊÀÇ ¼ýÀÚµéÀº 1~4·Î ¼øÂ÷ Áõ°¡ÇÑ´Ù. ±×¸®°í ±× µÚ¿¡ °ªÀº ÀÚ±â ÀÚ½ÅÀÇ °ªÀ» »« °ªÀÌ ¼øÂ÷ÀûÀ¸·Î Áõ°¡ÇÑ´Ù.
-* µû¶ó¼­ Àç±Í ºÎºÐ¿¡¼­ °¡Àå Å« for¹®Àº i=0¿¡¼­ arr.length±îÁö ¼øÂ÷ÀûÀ¸·Î Áõ°¡ÇÑ´Ù. ±×¸®°í, ³Ö¾îÁØ index i¿¡ ÇØ´çÇÏ´Â °ªÀ» Á¦¿ÜÇØ¾ß ÇÏ±â ¶§¹®¿¡ visited¸¦ true·Î ¹Ù²ãÁÖ°í, ÀÌ¸¦ Á¦¿ÜÇÑ °Íµé Áß¿¡¼­ °¡Àå ÀÛÀº ÀÎµ¦½º °ªÀÇ ¹è¿­°ªÀÌ result¿¡ ¼øÂ÷ÀûÀ¸·Î µé¾î°¡°Ô µÈ´Ù. ¿¬»êÀÌ ³¡³ª ±× Àü ´Ü°è·Î µ¹¾Æ°¡´Â °ÍÀÌ visited[i]=flase; ºÎºÐÀÌ µÇ°Ú´Ù. µû¶ó¼­ ±íÀÌ¿¡ µû¶ó ¿ÏÀüÇÏ°Ô Å½»öÇÏ°í, Å½»öÀ» ¸¶Ä¡°í ±âÀúÁ¶°Ç¿¡ ÀÇÇØ returnÀ» ÇÏ¸é ±× Àü °ªÀ¸·Î È¸±ÍÇÏ°Ô µÇ´Â ±¸Á¶¸¦ °®°í ÀÖ´Ù.
+* ìœ„ ê²°ê³¼ ê°’ì—ì„œ, ê³µí†µì ì´ ìžˆë‚˜? forë¬¸ìœ¼ë¡œ ìž‘ì„±í•  ìˆ˜ ìžˆì„ê¹Œ? ìš°ì„  ê°€ìž¥ ì™¼ìª½ì˜ ìˆ«ìžë“¤ì€ 1~4ë¡œ ìˆœì°¨ ì¦ê°€í•œë‹¤. ê·¸ë¦¬ê³  ê·¸ ë’¤ì— ê°’ì€ ìžê¸° ìžì‹ ì˜ ê°’ì„ ëº€ ê°’ì´ ìˆœì°¨ì ìœ¼ë¡œ ì¦ê°€í•œë‹¤.
+* ë”°ë¼ì„œ ìž¬ê·€ ë¶€ë¶„ì—ì„œ ê°€ìž¥ í° forë¬¸ì€ i=0ì—ì„œ arr.lengthê¹Œì§€ ìˆœì°¨ì ìœ¼ë¡œ ì¦ê°€í•œë‹¤. ê·¸ë¦¬ê³ , ë„£ì–´ì¤€ index iì— í•´ë‹¹í•˜ëŠ” ê°’ì„ ì œì™¸í•´ì•¼ í•˜ê¸° ë•Œë¬¸ì— visitedë¥¼ trueë¡œ ë°”ê¿”ì£¼ê³ , ì´ë¥¼ ì œì™¸í•œ ê²ƒë“¤ ì¤‘ì—ì„œ ê°€ìž¥ ìž‘ì€ ì¸ë±ìŠ¤ ê°’ì˜ ë°°ì—´ê°’ì´ resultì— ìˆœì°¨ì ìœ¼ë¡œ ë“¤ì–´ê°€ê²Œ ëœë‹¤. ì—°ì‚°ì´ ëë‚˜ ê·¸ ì „ ë‹¨ê³„ë¡œ ëŒì•„ê°€ëŠ” ê²ƒì´ visited[i]=flase; ë¶€ë¶„ì´ ë˜ê² ë‹¤. ë”°ë¼ì„œ ê¹Šì´ì— ë”°ë¼ ì™„ì „í•˜ê²Œ íƒìƒ‰í•˜ê³ , íƒìƒ‰ì„ ë§ˆì¹˜ê³  ê¸°ì €ì¡°ê±´ì— ì˜í•´ returnì„ í•˜ë©´ ê·¸ ì „ ê°’ìœ¼ë¡œ íšŒê·€í•˜ê²Œ ë˜ëŠ” êµ¬ì¡°ë¥¼ ê°–ê³  ìžˆë‹¤.
 
+
+# ì¤‘ë³µìˆœì—´
+* ì¤‘ë³µ ìˆœì—´ì€ ì¤‘ë³µì´ ì—†ëŠ” ìˆœì—´ê³¼ ë‹¬ë¦¬, ì¤‘ë³µì„ í—ˆìš©í•˜ê³  ìˆœì„œê°€ ìžˆëŠ” ìˆœì—´ì„ ë§í•œë‹¤.
+
+## ì½”ë“œ
+    import java.util.Scanner;
+
+    public class NM3 {
+	    static void mul_permutation(int[] arr, int[] result, int n) {
+		    if (n == result.length) {
+			    for (int i = 0; i < result.length; i++) {
+				    System.out.print(result[i] + " ");
+			    }
+			    System.out.println();
+			    return;
+		    }
+		
+		    for (int i = 0; i < arr.length; i++) {
+			    result[n] = arr[i];
+			    mul_permutation(arr, result, n + 1);
+		    }
+	    }
+
+	    public static void main(String[] args) {
+		    Scanner sc = new Scanner(System.in);
+		    int N = sc.nextInt();
+		    int M = sc.nextInt();
+
+		    int[] arr = new int[N];
+		    for (int i = 1; i <= N; i++) {
+			    arr[i - 1] = i;
+		    }
+
+		    // ì¤‘ë³µìˆœì—´
+		    mul_permutation(arr, new int[M], 0);
+
+	    }
+    }
+
+* ê·¼ë° ìœ„ ì½”ë“œëŠ” ì¶œë ¥í•˜ëŠ” ë¶€ë¶„ ë•Œë¬¸ì—, ì‹œê°„ì´ˆê³¼ê°€ ë‚  ìˆ˜ ìžˆë‹¤. ë”°ë¼ì„œ stringìœ¼ë¡œ ì¶œë ¥í•˜ìž.
       
+      import java.util.Scanner;
+
+      public class NM3 {
+	      static void mul_permutation(String result, int n) {
+		      if (n == M) {
+			      System.out.println(result);
+			      return;
+		      }
+		
+		      for (int i = 1; i <=N; i++) {
+			      mul_permutation(result+i+" ", n + 1);
+		      }
+	      }
+	
+	      static int M;
+	      static int N;
+	      public static void main(String[] args) {
+		      Scanner sc = new Scanner(System.in);
+		      N = sc.nextInt();
+		      M = sc.nextInt();
+
+		      // ì¤‘ë³µìˆœì—´
+		      mul_permutation("", 0);
+
+	      }
+      }
