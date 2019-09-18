@@ -1,6 +1,6 @@
 ![](https://user-images.githubusercontent.com/30182987/58375588-4409f700-7f91-11e9-97e5-2b2f919f64cd.png)
 
-## 0. [tip]()
+## 0. [tip](https://github.com/kHeNoTbB/Algorithm/tree/master/tip)
 
 
 ## 1. [수학](https://github.com/kHeNoTbB/Algorithm/tree/master/Math)
