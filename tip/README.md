@@ -5,6 +5,7 @@
 * [문자, 문자열 입력받기](https://github.com/kHeNoTbB/Algorithm/blob/master/tip/%EB%AC%B8%EC%9E%90%2C%20%EB%AC%B8%EC%9E%90%EC%97%B4%20%EC%9E%85%EB%A0%A5%EB%B0%9B%EA%B8%B0.md)
 * [조건문](https://github.com/kHeNoTbB/Algorithm/blob/master/tip/%EC%A1%B0%EA%B1%B4%EB%AC%B8.md)
 * [compareTo](https://github.com/kHeNoTbB/Algorithm/blob/master/tip/compareTo.md)
+* [Compareable-CompareTo, 그리고 Comparator](https://github.com/kHeNoTbB/Algorithm/blob/master/tip/Compareable-CompareTo%2C%20%EA%B7%B8%EB%A6%AC%EA%B3%A0%20Comparator.md)
 * [ArrayList와 List](https://github.com/kHeNoTbB/Algorithm/blob/master/tip/ArrayList%EC%99%80%20List.md)
 
 ## 응용
