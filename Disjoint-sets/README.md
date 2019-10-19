@@ -18,10 +18,35 @@
   
 3) unionSet(int x, int y) : 두 개의 부모를 똑같이 만든다.
 
-🚩 rank
+	   // union(findSet(a), findSet(b));
+	   static void union(int x, int y) {
+		   parents[x]=y;
+	   }
+
 
 🚩 Path Compression
 부모를 찾아가는 과정에서 나의 조상들이 전부 나의 최고 할아버지로 변경됨
+
+	static int findSet(int x) {
+		if (parents[x] == x) return x;
+		return parents[x] = findSet(parents[x]); // path-compression
+	}
+
+🚩 rank
+
+	// union(findSet(a), findSet(b));
+	static void union(int x, int y) {
+		if (rank[x] > rank[y]) {
+			parents[y] = x;
+		} else {
+			//y가 x의 조상
+			parents[x] = y;
+			if (rank[x] == rank[y]) {
+				rank[y]++;
+			}
+		}
+	}
+
 
 
 # 최소신장트리(MST, Minimum Spanning Tree)
