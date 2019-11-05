@@ -1,5 +1,5 @@
 # DFS Pattern
-## jungol 1113
+## [jungol 1113](http://www.jungol.co.kr/bbs/board.php?bo_table=pbank&wr_id=393&sca=40)
 * 방향과 최소시간을 고려해야 하는 경우
       
       static int[] dx = { 0, 0, 1, -1 };
