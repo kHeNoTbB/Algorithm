@@ -3,7 +3,7 @@
 
     import java.util.Scanner;
 
-    public class 위상정렬_강사님 {
+    public class CODE {
     	public static void main(String[] args) {
 	    	Scanner sc = new Scanner(System.in);
 		    int M = sc.nextInt();
@@ -43,3 +43,66 @@
 	    	}
 	    }
     }
+
+## 인접리스트 이용한 DAG
+
+    import java.util.ArrayList;
+    import java.util.LinkedList;
+    import java.util.List;
+    import java.util.Queue;
+    import java.util.Scanner;
+
+    /*
+    testcase
+    8 7
+    0 2
+    0 1
+    2 5
+    1 4
+    5 4
+    3 4
+    3 6
+    1 3
+    */
+
+    public class 위상정렬2_강사님 {
+	    public static void main(String[] args) {
+		    //인접 리스트로 입력받아 보기
+		    Scanner sc = new Scanner(System.in);
+		    int N = sc.nextInt();
+		    int M = sc.nextInt();
+		
+		    int[] parentNum = new int[N];
+		
+		    //N개의 가변길이 배열이 필요함
+		    List<Integer>[] adj = new ArrayList[N];
+		    for(int i=0; i<N; i++) {
+		    	    adj[i] = new ArrayList<>();
+		    }
+		    for(int i=0; i<M; i++) {
+			    int a = sc.nextInt();
+			    int b = sc.nextInt();
+			    adj[a].add(b);
+			    parentNum[b]++;
+		    }
+		    Queue<Integer> queue=  new LinkedList<>();
+		    //부모카운트가 0인 친구를 방문하기 위해 큐에 삽입
+		    for(int i=0; i<N; i++) {
+			    if(parentNum[i]==0) queue.add(i);
+		    }
+		
+		    while(!queue.isEmpty()) {
+			    //큐에서 꺼내서 방문
+			    int n = queue.poll();
+			    System.out.println(n);
+			
+			    //방문한 노드에서 연결되는 친구들의 부모카운트를 1씩 감소시키고, 그 값이 0이되면 큐에 삽입함
+			    for(int i=0; i<adj[n].size(); i++) {
+				    if(--parentNum[adj[n].get(i)]==0)
+					    queue.add(adj[n].get(i));
+			    }
+		    }
+		
+	    }
+    }
+
