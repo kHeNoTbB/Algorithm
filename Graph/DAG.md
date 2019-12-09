@@ -1,9 +1,17 @@
 # DAG(Directed Acyclic Graph, 사이클 없는 방향 그래프)
+## 개념
+* 정점의 개수와 간선정보가 주어진다.
+* 간선(연결)정보를 통해 인접행렬/인접리스트를 그릴 수 있다.
+* 그려진 인접행렬/인접리스트를 통해, 부모가 없는 정점을 방문한다.
+* 방문한 정점으로부터 연결된 모든 경로를 삭제한다.
+* 모든 정점을 방문했다면, 종료한다.
+
 ## 인접행렬을 이용한 DAG
+### 전체코드
 
     import java.util.Scanner;
 
-    public class CODE {
+    public class Solution {
     	public static void main(String[] args) {
 	    	Scanner sc = new Scanner(System.in);
 		    int M = sc.nextInt();
@@ -65,7 +73,7 @@
     1 3
     */
 
-    public class 위상정렬2_강사님 {
+    public class Solution {
 	    public static void main(String[] args) {
 		    //인접 리스트로 입력받아 보기
 		    Scanner sc = new Scanner(System.in);
