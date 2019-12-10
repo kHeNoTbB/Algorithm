@@ -114,3 +114,7 @@
 	    }
     }
 
+## problems
+### [SWEA 1267 작업순서](https://swexpertacademy.com/main/code/problem/problemDetail.do)
+### [백준 2252 줄세우기](https://www.acmicpc.net/problem/2252)
+### [백준 1516 게임개발](https://www.acmicpc.net/problem/1516)
