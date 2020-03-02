@@ -1,17 +1,17 @@
 # LEVEL2
-* ~~[프린터](https://programmers.co.kr/learn/courses/30/lessons/42587)~~
-* ~~[탑](https://github.com/kHeNoTbB/Algorithm/blob/master/programmers/level2/%ED%83%91.java)~~
-* [쇠막대기]()
-* ~~[멀쩡한사각형](https://github.com/kHeNoTbB/Algorithm/blob/master/programmers/level2/%EB%A9%80%EC%A9%A1%ED%95%9C%EC%82%AC%EA%B0%81%ED%98%95.java)~~
-* ~~[스킬트리](https://github.com/kHeNoTbB/Algorithm/blob/master/programmers/level2/%EC%8A%A4%ED%82%AC%ED%8A%B8%EB%A6%AC.java)~~
+* (1) ~~[프린터](https://programmers.co.kr/learn/courses/30/lessons/42587)~~
+* (2) ~~[탑](https://github.com/kHeNoTbB/Algorithm/blob/master/programmers/level2/%ED%83%91.java)~~
+* (3) ~~[쇠막대기]()~~
+* (4) ~~[멀쩡한사각형](https://github.com/kHeNoTbB/Algorithm/blob/master/programmers/level2/%EB%A9%80%EC%A9%A1%ED%95%9C%EC%82%AC%EA%B0%81%ED%98%95.java)~~
+* (5) ~~[스킬트리](https://github.com/kHeNoTbB/Algorithm/blob/master/programmers/level2/%EC%8A%A4%ED%82%AC%ED%8A%B8%EB%A6%AC.java)~~
+* (6) ~~[주식가격](https://github.com/kHeNoTbB/Algorithm/blob/master/programmers/level2/%EC%A3%BC%EC%8B%9D%EA%B0%80%EA%B2%A9.java)~~
+* (7) ~~[기능개발](https://github.com/kHeNoTbB/Algorithm/blob/master/programmers/level2/%EA%B8%B0%EB%8A%A5%EA%B0%9C%EB%B0%9C.java)~~
+* (8) ~~[큰수만들기]()~~
 * [다리를지나는트럭]()
-* ~~[주식가격](https://github.com/kHeNoTbB/Algorithm/blob/master/programmers/level2/%EC%A3%BC%EC%8B%9D%EA%B0%80%EA%B2%A9.java)~~
-* ~~[기능개발](https://github.com/kHeNoTbB/Algorithm/blob/master/programmers/level2/%EA%B8%B0%EB%8A%A5%EA%B0%9C%EB%B0%9C.java)~~
 * [124나라의숫자]()
 * [문자열압축]()
 * [카카오프렌즈컬러링북]()
 * [괄호변환]()
-* [큰수만들기]()
 * [가장큰수]()
 * [더맵게]()
 * [조이스틱]()
