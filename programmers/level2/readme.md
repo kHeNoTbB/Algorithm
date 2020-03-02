@@ -7,6 +7,7 @@
 * (6) ~~[주식가격](https://github.com/kHeNoTbB/Algorithm/blob/master/programmers/level2/%EC%A3%BC%EC%8B%9D%EA%B0%80%EA%B2%A9.java)~~
 * (7) ~~[기능개발](https://github.com/kHeNoTbB/Algorithm/blob/master/programmers/level2/%EA%B8%B0%EB%8A%A5%EA%B0%9C%EB%B0%9C.java)~~
 * (8) ~~[큰수만들기]()~~
+* (9) ~~[피보나치수]()~~
 * [다리를지나는트럭]()
 * [124나라의숫자]()
 * [문자열압축]()
@@ -32,7 +33,6 @@
 * [숫자의표현]()
 * [최댓값과 최솟값]()
 * [최솟값만들기]()
-* [피보나치수]()
 * [행렬의곱셈]()
 * [JadenCase문자열만들기]()
 * [N개의최소공배수]()
