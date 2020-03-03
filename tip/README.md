@@ -8,6 +8,7 @@
 * [compareTo](https://github.com/kHeNoTbB/Algorithm/blob/master/tip/compareTo.md)
 * [Compareable-CompareTo, 그리고 Comparator](https://github.com/kHeNoTbB/Algorithm/blob/master/tip/Compareable-CompareTo%2C%20%EA%B7%B8%EB%A6%AC%EA%B3%A0%20Comparator.md)
 * [ArrayList와 List](https://github.com/kHeNoTbB/Algorithm/blob/master/tip/ArrayList%EC%99%80%20List.md)
+* [우선순위큐와 정렬](https://github.com/kHeNoTbB/Algorithm/blob/master/tip/PriorityQueuemd)
 
 ## 응용
 * [Palindrome,회문](https://github.com/kHeNoTbB/Algorithm/blob/master/tip/Palindrome%2C%ED%9A%8C%EB%AC%B8.md)
