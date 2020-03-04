@@ -19,6 +19,8 @@
 * (18) [***]~~라면공장~~
 * (19) ~~[H-Index](https://github.com/kHeNoTbB/Algorithm/blob/master/programmers/level2/H-index.java)~~
 * (20) ~~[JadenCase문자열만들기](https://github.com/kHeNoTbB/Algorithm/blob/master/programmers/level2/JadenCase%EB%AC%B8%EC%9E%90%EC%97%B4%EB%A7%8C%EB%93%A4%EA%B8%B0.java)~~
+* (21) [*]~~[짝지어제거하기](https://github.com/kHeNoTbB/Algorithm/blob/master/programmers/level2/%EC%A7%9D%EC%A7%80%EC%96%B4%EC%A0%9C%EA%B1%B0%ED%95%98%EA%B8%B0.java)~~
+
 ---
 ## 도전 중
 * [다리를지나는트럭]()
@@ -40,7 +42,6 @@
 * [올바른괄호]()
 * [땅따먹기]()
 * [포켓몬]()
-* [짝지어제거하기]()
 * [점프와순간이동]()
 * [영어끝말잇기]()
 * [예상대진표]()
