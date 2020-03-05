@@ -22,7 +22,7 @@
 * (21) [*] ~~[짝지어제거하기](https://github.com/kHeNoTbB/Algorithm/blob/master/programmers/level2/%EC%A7%9D%EC%A7%80%EC%96%B4%EC%A0%9C%EA%B1%B0%ED%95%98%EA%B8%B0.java)~~
 * (22) [****] ~~[다리를지나는트럭](https://github.com/kHeNoTbB/Algorithm/blob/master/programmers/level2/%EB%8B%A4%EB%A6%AC%EB%A5%BC%EC%A7%80%EB%82%98%EB%8A%94%ED%8A%B8%EB%9F%AD.java)~~
 * (23) [*] ~~[타겟넘버](https://github.com/kHeNoTbB/Algorithm/blob/master/programmers/level2/%ED%83%80%EA%B2%9F%EB%84%98%EB%B2%84.java)~~
-* (24) [*] ~~위장~~
+* (24) [*] ~~[위장](https://github.com/kHeNoTbB/Algorithm/blob/master/programmers/level2/%EC%9C%84%EC%9E%A5.java)~~
 ---
 ## 도전 중
 * [124나라의숫자]()
