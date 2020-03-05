@@ -1,5 +1,11 @@
 import java.util.*;
 class Solution {
+    /*
+    * HashMap을 사용할 줄 아는지 물어보는 문제다
+    * (1) hashMap.containsKey(key) : key가 있으면 true, 없으면 false를 리턴한다.
+    * (2) hashMap.put(key, value) : key가 있으면 기존 값을 value로 갱신하고, 없으면 추가한다.
+    * (3) hashMap을 출력하는 방법을 익혀놓자.
+    */
     public int solution(String[][] clothes) {
         int answer = 1;
         
