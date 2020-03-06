@@ -1,8 +1,6 @@
-package 기본자료형;
-
 import java.util.*;
 
-public class boj수찾기 {
+public class Main {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
