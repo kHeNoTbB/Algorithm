@@ -29,3 +29,5 @@
 * [boj, 수 찾기](https://github.com/kHeNoTbB/Algorithm/blob/master/baekjoon/1920.java)
 
 ### ✏️[PowerSet](https://github.com/kHeNoTbB/Algorithm/blob/master/Exhaustive%20Search/(1)%20PowerSet.md)
+* [boj, 부분수열의합](https://github.com/kHeNoTbB/Algorithm/blob/master/baekjoon/1182_boolean.java) boolean 배열 활용
+* [boj, 부분수열의합](https://github.com/kHeNoTbB/Algorithm/blob/master/baekjoon/1182_bitmask.java) 비트마스크 활용
