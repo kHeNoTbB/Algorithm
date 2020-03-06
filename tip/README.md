@@ -16,14 +16,16 @@
 * [객체 정렬하기](https://github.com/kHeNoTbB/Algorithm/blob/master/tip/%EA%B0%9D%EC%B2%B4%20%EC%A0%95%EB%A0%AC%ED%95%98%EA%B8%B0.md)
 * [자리수 더하기](https://github.com/kHeNoTbB/Algorithm/blob/master/tip/%EC%9E%90%EB%A6%AC%EC%88%98%20%EB%8D%94%ED%95%98%EA%B8%B0.md)
 
-## 문제 리스트
-### 스택
+****
+
+## 📋 문제 리스트
+### ✏️스택
 * [algo, Mismatched Brackets](https://github.com/kHeNoTbB/Algorithm/blob/master/Algospot/BRACKETS2.java)
 * [boj, 괄호](https://github.com/kHeNoTbB/Algorithm/blob/master/baekjoon/9012.java)
 * [boj, 괄호의 값](https://www.acmicpc.net/problem/2504)
 * [programmers, 짝지어제거하기](https://programmers.co.kr/learn/courses/30/lessons/12973)
 
-### 이분탐색
+### ✏️이분탐색
 * [boj, 수 찾기](https://github.com/kHeNoTbB/Algorithm/blob/master/baekjoon/1920.java)
 
-### [PowerSet](https://github.com/kHeNoTbB/Algorithm/blob/master/Exhaustive%20Search/(1)%20PowerSet.md)
+### ✏️[PowerSet](https://github.com/kHeNoTbB/Algorithm/blob/master/Exhaustive%20Search/(1)%20PowerSet.md)
