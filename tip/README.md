@@ -15,3 +15,8 @@
 * [좌표 활용하기](https://github.com/kHeNoTbB/Algorithm/blob/master/tip/%EC%A2%8C%ED%91%9C%20%ED%99%9C%EC%9A%A9%ED%95%98%EA%B8%B0.md)
 * [객체 정렬하기](https://github.com/kHeNoTbB/Algorithm/blob/master/tip/%EA%B0%9D%EC%B2%B4%20%EC%A0%95%EB%A0%AC%ED%95%98%EA%B8%B0.md)
 * [자리수 더하기](https://github.com/kHeNoTbB/Algorithm/blob/master/tip/%EC%9E%90%EB%A6%AC%EC%88%98%20%EB%8D%94%ED%95%98%EA%B8%B0.md)
+
+## 문제 리스트
+### 스택
+* [boj, 괄호](https://www.acmicpc.net/problem/9012)
+* [programmers, 짝지어제거하기](https://programmers.co.kr/learn/courses/30/lessons/12973)
