@@ -24,4 +24,4 @@
 * [programmers, 짝지어제거하기](https://programmers.co.kr/learn/courses/30/lessons/12973)
 
 ### 이분탐색
-* [boj, 수 찾기](https://www.acmicpc.net/problem/1920)
+* [boj, 수 찾기](https://github.com/kHeNoTbB/Algorithm/blob/master/baekjoon/1920.java)
