@@ -26,11 +26,11 @@
 		
     //value만 출력하기
     for(int value : hashmap.values()) {
-	System.out.println(value);
+	    System.out.println(value);
     }
 
 ## key 값이 있는지 검색하기
     //키가 있는지 궁금할 때
     if(hashmap.containsKey("key2")) {
-	System.out.println("key2는 있구나!");
+	    System.out.println("key2는 있구나!");
     }
