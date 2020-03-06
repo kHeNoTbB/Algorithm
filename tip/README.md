@@ -18,7 +18,7 @@
 
 ## 문제 리스트
 ### 스택
-* [algo, Mismatched Brackets]()
+* [algo, Mismatched Brackets](https://github.com/kHeNoTbB/Algorithm/blob/master/Algospot/BRACKETS2.java)
 * [boj, 괄호](https://github.com/kHeNoTbB/Algorithm/blob/master/baekjoon/9012.java)
 * [boj, 괄호의 값](https://www.acmicpc.net/problem/2504)
 * [programmers, 짝지어제거하기](https://programmers.co.kr/learn/courses/30/lessons/12973)
