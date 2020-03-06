@@ -18,5 +18,5 @@
 
 ## 문제 리스트
 ### 스택
-* [boj, 괄호](https://www.acmicpc.net/problem/9012)
+* [boj, 괄호](https://github.com/kHeNoTbB/Algorithm/blob/master/baekjoon/9012.java)
 * [programmers, 짝지어제거하기](https://programmers.co.kr/learn/courses/30/lessons/12973)
