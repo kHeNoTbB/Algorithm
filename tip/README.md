@@ -31,3 +31,7 @@
 ### ✏️[PowerSet](https://github.com/kHeNoTbB/Algorithm/blob/master/Exhaustive%20Search/(1)%20PowerSet.md)
 * [boj, 부분수열의합](https://github.com/kHeNoTbB/Algorithm/blob/master/baekjoon/1182_boolean.java) boolean 배열 활용
 * [boj, 부분수열의합](https://github.com/kHeNoTbB/Algorithm/blob/master/baekjoon/1182_bitmask.java) 비트마스크 활용
+
+### ✏️그리디
+* [swea, 재관이의 대량할인]
+* [boj, 과자 사기]
