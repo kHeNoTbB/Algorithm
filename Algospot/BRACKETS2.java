@@ -1,4 +1,7 @@
 import java.util.*;
+/*
+* https://algospot.com/judge/problem/read/BRACKETS2
+*/
 public class Main {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
