@@ -33,7 +33,7 @@
 * [boj, 부분수열의합](https://github.com/kHeNoTbB/Algorithm/blob/master/baekjoon/1182_bitmask.java) 비트마스크 활용
 
 ### ✏️ DFS-백트래킹
-* [boj, 로또](https://www.acmicpc.net/problem/6603)
+* [boj, 로또](https://github.com/kHeNoTbB/Algorithm/blob/master/baekjoon/6603.java)
 * [boj, 알파벳](https://www.acmicpc.net/problem/1987)
 
 ### ✏️그리디
