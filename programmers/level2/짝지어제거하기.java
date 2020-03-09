@@ -1,6 +1,7 @@
 import java.util.*;
 class Solution {
     /*
+    * https://programmers.co.kr/learn/courses/30/lessons/12973
     * (1) Queue로 풀면 계속 넣고 빼고 많아져서 시간초과가 난다. ㅠ
     * (2) stack으로 푸는 방법은 생각한건 두가지다
     *     전부 스택에 넣고 빼면서 문자열 연산 or 짝이 안 맞는걸 stack에 넣는방법
