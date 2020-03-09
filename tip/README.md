@@ -35,7 +35,7 @@
 * [boj, 부분수열의합](https://github.com/kHeNoTbB/Algorithm/blob/master/baekjoon/1182_boolean.java) boolean 배열 활용
 * [boj, 부분수열의합](https://github.com/kHeNoTbB/Algorithm/blob/master/baekjoon/1182_bitmask.java) 비트마스크 활용
 
-### ✏️[조합]()
+### ✏️[조합](https://github.com/kHeNoTbB/Algorithm/blob/master/tip/%EC%A1%B0%ED%95%A9.md)
 * [programmers, 타겟넘버](https://github.com/kHeNoTbB/Algorithm/blob/master/programmers/level2/%ED%83%80%EA%B2%9F%EB%84%98%EB%B2%84.java)
 
 ### ✏️ DFS-백트래킹
