@@ -41,7 +41,3 @@
 ### ✏️ DFS-백트래킹
 * [boj, 로또](https://github.com/kHeNoTbB/Algorithm/blob/master/baekjoon/6603.java)
 * [boj, 알파벳](https://www.acmicpc.net/problem/1987)
-
-### ✏️그리디
-* [swea, 재관이의 대량할인]
-* [boj, 과자 사기]
