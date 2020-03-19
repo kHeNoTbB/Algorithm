@@ -19,6 +19,11 @@
 ****
 
 ## 📋 문제 리스트
+### ✏️comparable, comparator
+* [좌표 정렬하기](https://www.acmicpc.net/problem/11650)
+* [좌표 정렬하기2](https://www.acmicpc.net/problem/11651)
+* [나이순 정렬](https://www.acmicpc.net/problem/10814)
+
 ### ✏️ 문자열
 * [boj, 알파벳 찾기](https://github.com/kHeNoTbB/Algorithm/blob/master/baekjoon/10809.java)
 
@@ -27,6 +32,9 @@
 * [boj, 괄호](https://github.com/kHeNoTbB/Algorithm/blob/master/baekjoon/9012.java)
 * [boj, 괄호의 값](https://www.acmicpc.net/problem/2504)
 * [programmers, 짝지어제거하기](https://programmers.co.kr/learn/courses/30/lessons/12973)
+
+### ✏️Set
+* [중복 빼고 정렬하기](https://www.acmicpc.net/problem/10867)
 
 ### ✏️이분탐색
 * [boj, 수 찾기](https://github.com/kHeNoTbB/Algorithm/blob/master/baekjoon/1920.java)
@@ -40,3 +48,4 @@
 * [programmers, 타겟넘버](https://github.com/kHeNoTbB/Algorithm/blob/master/programmers/level2/%ED%83%80%EA%B2%9F%EB%84%98%EB%B2%84.java)
 * [boj, 로또](https://github.com/kHeNoTbB/Algorithm/blob/master/baekjoon/6603.java)
 * [boj, 알파벳](https://www.acmicpc.net/problem/1987)
+
