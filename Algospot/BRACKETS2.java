@@ -11,7 +11,7 @@ public class Main {
 		for(int tc=0; tc<TC; tc++) {
 			Stack<Character> stack = new Stack<>();
 			for(char c : sc.next().toCharArray()) {
-				if(!stack.isEmpty() && e.contains(c+"")) { //닫는 태그일때
+				if(!stack.isEmpty() && e.contains(c+"")) {  //닫는 태그일때
 					if(s.indexOf(stack.peek())==e.indexOf(c)) {
 						stack.pop();
 					}
