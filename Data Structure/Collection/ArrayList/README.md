@@ -42,6 +42,23 @@ private void expandArray() {
 
 
 
+#### 데이터 출력
+
+```
+@Override
+public String toString() {
+	StringBuilder sb = new StringBuilder();
+	sb.append("ArrayList = [");
+	for(int i=0; i<size; i++) {
+		sb.append(elementData[i]);
+		if(i<size-1) sb.append(",");
+	}
+	return sb.append("]").toString();
+}
+```
+
+
+
 #### 데이터의 추가
 
 ##### (1) 가장 마지막에 데이터 추가하기
@@ -60,7 +77,60 @@ public boolean addLast(Object element) {
 
 ##### (2) 중간에 데이터 추가하기
 
+```
+public boolean add(int idx, Object element) {
+	if(elementData.length==size) expandArray();
+	for(int i=size-1; i>=idx; i--) {
+		elementData[i+1] = elementData[i]; 
+	}
+	elementData[idx] = element;
+	size++;
+	return true;
+}
 
+```
+
+중간에 데이터를 추가하려면, 추가하려는 공간 이후의 데이터들은 한칸씩 자리를 뒤로 이동해줘야 한다. 여기서 중요한 것은, 뒤로 이동하려는 데이터는 무조건 뒤에서부터 이동해야 한다. 만약 앞에 있는 데이터부터 순차적으로 이동하면, 앞의 데이터들만 아마 값이 복사가 될 것이다. 이 얘기가 와닿지 않으면 다음 코드를 실행해보자.
+
+```
+public boolean add(int idx, Object element) {
+	if(elementData.length==size) expandArray();
+	for(int i=idx; i<size; i++) {
+		elementData[i+1] = elementData[i]; 
+	}
+	elementData[idx] = element;
+	size++;
+	return true;
+}
+
+public static void main(String[] args) {
+		ArrayList arrayList = new ArrayList();
+		arrayList.addLast(10);
+		arrayList.addLast(20);
+		arrayList.addLast(30);
+		arrayList.addLast(40);
+		arrayList.addLast(10);
+		arrayList.addLast(20);
+		arrayList.addLast(30);
+		arrayList.addLast(40);
+		arrayList.addLast(10);
+		arrayList.addLast(20);
+		arrayList.add(2, 2000);
+		System.out.println(arrayList.toString());
+}
+```
+
+원래는 위 코드를 실행하면 `ArrayList = [10,20,2000,30,40,10,20,30,40,10,20]` 를 기대할 것이다. 하지만 실행해보면 기대와 다르게 `ArrayList = [10,20,2000,30,30,30,30,30,30,30,30]` 가 실행됨을 알 수 있다. 첫번째 데이터부터 이동하므로, 이동하면서 뒤 데이터가 모두 첫번째 데이터 값으로 복사되기 때문이다.
+
+
+
+##### (3) 첫번째에 데이터 추가하기
+
+```
+public boolean addFirst(Object element) {
+	return add(0, element);
+}
+```
 
 
 
