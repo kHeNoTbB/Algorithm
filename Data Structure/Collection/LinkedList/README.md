@@ -211,5 +211,5 @@ public Object get(int idx) {
 
 #### 검색 O(N)
 
-### 삽입/삭제 O(1)
+#### 삽입/삭제 O(1)
 
