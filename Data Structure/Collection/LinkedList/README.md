@@ -1,4 +1,5 @@
 # LinkedList
+📌 [전체 코드](https://github.com/kHeNoTbB/Algorithm/blob/master/Data%20Structure/Collection/LinkedList/LinkedList_Implementation.java)
 
 * 무한개의 자료 삽입 가능함
 
@@ -130,6 +131,77 @@ public void add(int idx, Object input) {
 따지고보면 가장 복잡한 로직이다. 원래 넣을 데이터의 idx에 있던 data의 next를 지금 집어넣을 데이터로 변경하고, 넣을 데이터의 next를 원래 그 자리에 있었던 dat를 가르키게 바꾸면 된다.  여기서 데이터를 idx로 찾기 위해서 함수가 필요하다. 이 때는 idx로 순차적으로 데이터를 찾게 된다. 순차적으로 데이터를 찾긴 하지만, 결론적으로 배열 연산(데이터 복사 붙여넣기, 배열의 이동 등) 없이, 링크의 이동만 있기 때문에 검색연산 외로 ArrayList보다 빠르다고 볼 수 있다.
 
 
+
+---
+
+#### 데이터 삭제
+
+##### (1) 처음 데이터 삭제
+
+```
+public void removeFirst() {
+	Node origin_head = head;
+	head = head.next;
+	origin_head = null;
+	size--;
+}
+```
+
+원래의 head를 origin_head로 저장해놓고, head의 next에는 그 다음 데이터가 있고, 그 다음 데이터가 바로 head가 되어야 하므로, head를 이로 변경한 후에, 원래의 head를 담은 노드까지 null로 해제 후 size를 줄여준다.
+
+
+
+##### (2) 중간 데이터 삭제
+
+```
+public void remove(int idx) {
+	if(idx==0) removeFirst();
+			
+	Node pre = node(idx-1);
+	Node removed = pre.next;
+	pre.next = pre.next.next;
+			
+	//만약 삭제하려는 데이터가 tail이었다면
+	if(removed==tail) {
+		tail = pre;
+	}
+			
+	removed = null;
+	size --;
+}
+```
+
+
+
+##### (3) 마지막 데이터 삭제
+
+```
+public void removeLast() {
+	remove(size-1);
+}
+```
+
+
+
+----
+
+#### 데이터 검색
+
+```
+private Node node(int idx) {
+	Node x = head;
+	for(int i=0; i<idx; i++) {
+		x = x.next;
+	}
+	return x;
+}
+		
+public Object get(int idx) {
+	return node(idx);
+}
+```
+
+아까 구현했던 node 함수를 활용하면 된다.
 
 
 
