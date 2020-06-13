@@ -1,6 +1,6 @@
 # ArrayList
 
- 📌 [전체코드]([https://github.com/kHeNoTbB/Algorithm/blob/master/Data%20Structure/Collection/ArrayList/ArrayList_Implementation.java](https://github.com/kHeNoTbB/Algorithm/blob/master/Data Structure/Collection/ArrayList/ArrayList_Implementation.java))
+ 📌 [전체코드](https://github.com/kHeNoTbB/Algorithm/blob/master/Data%20Structure/Collection/ArrayList/ArrayList_Implementation.java)
 
 * 연속적으로 데이터를 묶어 저장한다.
 * 인덱스로 무작위 접근이 가능하다.
