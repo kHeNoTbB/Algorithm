@@ -7,7 +7,7 @@
 * (3) bit 연산
 * (4) 진수변환
 
-## [Data Structure, 자료구조]
+## Data Structure, 자료구조
 * (1) Array
 * (2) Collections Framework - [Collection](https://github.com/kHeNoTbB/Algorithm/tree/master/Data%20Structure/Collection)
   * (2-1) [ArrayList](https://github.com/kHeNoTbB/Algorithm/tree/master/Data%20Structure/Collection/ArrayList)
