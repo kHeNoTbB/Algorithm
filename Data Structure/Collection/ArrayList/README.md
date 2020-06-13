@@ -1,5 +1,7 @@
 # ArrayList
 
+ 📌 [전체코드]([https://github.com/kHeNoTbB/Algorithm/blob/master/Data%20Structure/Collection/ArrayList/ArrayList_Implementation.java](https://github.com/kHeNoTbB/Algorithm/blob/master/Data Structure/Collection/ArrayList/ArrayList_Implementation.java))
+
 * 연속적으로 데이터를 묶어 저장한다.
 * 인덱스로 무작위 접근이 가능하다.
 * 기본 저장 용량을 가지고 있으며, 이후 데이터 크기에 따라 용량이 자동적으로 늘어난다.
@@ -59,6 +61,8 @@ public String toString() {
 
 
 
+------
+
 #### 데이터의 추가
 
 ##### (1) 가장 마지막에 데이터 추가하기
@@ -72,6 +76,8 @@ public boolean addLast(Object element) {
 ```
 
 요소값을 현재 size에 추가하고 size를 들리는 모습이다. 만약 공간이 없다면 자동적으로 배열의 사이즈를 늘려줘야 한다.
+
+
 
 
 
@@ -124,7 +130,9 @@ public static void main(String[] args) {
 
 
 
-##### (3) 첫번째에 데이터 추가하기
+
+
+##### (3) 첫번째에 데이터 추가
 
 ```
 public boolean addFirst(Object element) {
@@ -133,6 +141,49 @@ public boolean addFirst(Object element) {
 ```
 
 
+
+-----
+
+#### 데이터의 삭제
+
+```
+public Object remove(int idx) {
+	Object removed = elementData[idx];			
+	for(int i=idx+1; i<=size-1; i++) {
+		elementData[i-1] = elementData[i];
+	}
+	elementData[size--] = null;
+	return removed;
+}
+
+public Object removeFirst() {
+	return remove(0);
+}
+		
+public Object removeLast() {
+	return remove(size-1);
+}
+```
+
+삭제할 idx 이후의 데이터를 한칸 씩 땡기면 된다. 이 때는 앞에서부터 끌어오면 된다. 삭제 후에는, 가장 마지막 공간을 null로 바꿔줘야 함을 잊지 말아야 한다.
+
+
+
+-----
+
+### 데이터의 검색
+
+```
+public Object get(int idx) {
+	return elementData[idx];
+}
+```
+
+ArrayList의 자료 검색은, 배열을 활용하였으므로 index로 바로 접근하기 때문에 매우 간단하다. 위의 삽입/삭제와 다르게 한번에 찾으므로 굉장히 빠른 속도를 자랑한다고 볼 수 있다.
+
+
+
+----
 
 ## ArrayList의 복잡도
 
