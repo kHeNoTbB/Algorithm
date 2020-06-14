@@ -1,5 +1,8 @@
 # LinkedList
-📌 [전체 코드](https://github.com/kHeNoTbB/Algorithm/blob/master/Data%20Structure/Collection/LinkedList/LinkedList_Implementation.java)
+📌 [LinkedList 구현](https://github.com/kHeNoTbB/Algorithm/blob/master/Data%20Structure/Collection/LinkedList/LinkedList_Implementation.java)
+
+📌 [Queue를 LinkedList로 구현](https://github.com/kHeNoTbB/Algorithm/blob/master/Data%20Structure/Collection/LinkedList/Queue_LinkedList.java)
+
 
 * 무한개의 자료 삽입 가능함
 
