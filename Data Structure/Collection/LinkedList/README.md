@@ -3,15 +3,15 @@
 
 📌 [Queue를 LinkedList로 구현](https://github.com/kHeNoTbB/Algorithm/blob/master/Data%20Structure/Collection/LinkedList/Queue_LinkedList.java)
 
-
+📌 [Stack을 LinkedList로 구현](https://github.com/kHeNoTbB/Algorithm/blob/master/Data%20Structure/Collection/LinkedList/Stack_LinkedList.java)
+  
+  
+## LinkedList의 특징
 * 무한개의 자료 삽입 가능함
-
 * 데이터에 순차접근함
 
-  
 
 ## LinkedList의 구현
-
 #### 기본구조
 
 ```
