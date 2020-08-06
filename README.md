@@ -30,13 +30,8 @@
    * [Kruskal Algorithm, 크루스칼 알고리즘](https://github.com/kHeNoTbB/Algorithm/tree/master/Kruskal%20Algorithm)
    * [Prim, 프림 알고리즘]
 
-## [Greedy Algorithm(탐욕 알고리즘)](https://github.com/kHeNoTbB/Algorithm/tree/master/Greedy)
-
-## 분할정복
-
 ## [DP(Dynamic Programming, 동적 계획법)](https://github.com/kHeNoTbB/Algorithm/tree/master/DP) 
 
+## [tip](https://github.com/kHeNoTbB/Algorithm/tree/master/tip)
 
----
-### [tip](https://github.com/kHeNoTbB/Algorithm/tree/master/tip)
-### [SQL](https://github.com/kHeNoTbB/Algorithm/tree/master/SQL)
+## [SQL](https://github.com/kHeNoTbB/Algorithm/tree/master/SQL)
