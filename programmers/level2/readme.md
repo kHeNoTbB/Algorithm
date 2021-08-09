@@ -1,5 +1,5 @@
 # LEVEL2
-* (1) ~~[프린터](https://programmers.co.kr/learn/courses/30/lessons/42587)~~ ⚡️⚡️⚡️⚡️
+* (1) ~~[프린터](https://programmers.co.kr/learn/courses/30/lessons/42587)~~ ⚡️ `큐`
 * (2) ~~[탑](https://github.com/kHeNoTbB/Algorithm/blob/master/programmers/level2/%ED%83%91.java)~~
 * (3) ~~[쇠막대기]()~~
 * (4) ~~[멀쩡한사각형](https://github.com/kHeNoTbB/Algorithm/blob/master/programmers/level2/%EB%A9%80%EC%A9%A1%ED%95%9C%EC%82%AC%EA%B0%81%ED%98%95.java)~~
@@ -35,7 +35,6 @@
 * [소수만들기]()
 * [숫자야구]()
 * [가장큰정사각형찾기]()
-* 
 ---
 * [카카오프렌즈컬러링북]()
 * [괄호변환]()
@@ -51,7 +50,6 @@
 * [뉴스클러스터링]()
 * [프렌즈4블록]()
 * [캐시]()
-* [오픈채팅방]()
 * [후보기]()
 * [방금그곡]()
 * [압축]()
