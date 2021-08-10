@@ -10,7 +10,7 @@
 * (9) ~~피보나치수~~
 * (10) ~~전화번호목록~~
 * (11) ~~최댓값과 최솟값~~
-* (12) ~~더맵게~~
+* (12) ~~[더맵게](https://github.com/kHeNoTbB/Algorithm/blob/master/programmers/level2/%EB%8D%94%EB%A7%B5%EA%B2%8C.java)~~ 
 * (13) ~~숫자의표현~~
 * (14) ~~다음큰숫자~~
 * (15) ~~최솟값만들기~~
@@ -26,7 +26,7 @@
 * (25) ~~[가장큰수](https://github.com/kHeNoTbB/Algorithm/blob/master/programmers/level2/%EA%B0%80%EC%9E%A5%ED%81%B0%EC%88%98.java)~~ ⚡️
 * (26) ~~문자열압축~~ ⚡️⚡️⚡️⚡️⚡️⚡️ `문자열` `구현`
 * (26) ~~오픈채팅방~~ `문자열` `구현`
-
+* (27) ~~[올바른 괄호]~~(https://github.com/kHeNoTbB/Algorithm/blob/master/programmers/level2/%EC%98%AC%EB%B0%94%EB%A5%B8%EA%B4%84%ED%98%B8.java) ⚡️ `스택` `괄호`
 
 ---
 ## 도전 중
