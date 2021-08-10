@@ -27,6 +27,7 @@
 * (26) ~~문자열압축~~ ⚡️⚡️⚡️⚡️⚡️⚡️ `문자열` `구현`
 * (26) ~~오픈채팅방~~ `문자열` `구현`
 * (27) ~~[올바른 괄호](https://github.com/kHeNoTbB/Algorithm/blob/master/programmers/level2/%EC%98%AC%EB%B0%94%EB%A5%B8%EA%B4%84%ED%98%B8.java)~~ ⚡️ `스택` `괄호`
+* (28) ~~[비밀지도](https://github.com/kHeNoTbB/Algorithm/blob/master/programmers/level2/%EB%B9%84%EB%B0%80%EC%A7%80%EB%8F%84.java)~~ ⚡️ `진법` `or연산`
 
 ---
 ## 도전 중
