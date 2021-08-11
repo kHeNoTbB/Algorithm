@@ -2,7 +2,7 @@
 
 |문제|코드|태그|중요도|
 |------|---|---|---|
-|[프린터](https://programmers.co.kr/learn/courses/30/lessons/42587)|[코드]()|`큐`| ⚡️ |
+|[프린터](https://programmers.co.kr/learn/courses/30/lessons/42587)|코드|`큐`| ⚡️ |
 |탑|[코드](https://github.com/kHeNoTbB/Algorithm/blob/master/programmers/level2/code/%ED%83%91.java)| | |
 |쇠막대기| | | |
 |멀쩡한 사각형|[코드](https://github.com/kHeNoTbB/Algorithm/blob/master/programmers/level2/code/%EB%A9%80%EC%A9%A1%ED%95%9C%EC%82%AC%EA%B0%81%ED%98%95.java) | | |
