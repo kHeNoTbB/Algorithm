@@ -5,7 +5,7 @@
         for문에서 조건 만족 시, break 조건으로 탈출한다고 해서 무조건 최저길이가 아님.
         따라서 최저길이 발견 시, startIdx와 최저길이를 갱신해줘야 함
     (2) map.put(gems[i], map.getOrDefault(gems[i], 0) + 1);
-    	왜자꾸 까먹는지 알다가도 모를일이지만, map.get(gems[i])+1 이런식으로 짜다간 nullpointerror임. 없다고 0을 반환하지 않음  
+    	왜자꾸 까먹는지 알다가도 모를일이지만, map.get(gems[i])+1 이런식으로 짜다간 nullpointerror임. 없는다고 0을 반환하지 않음  
 */
 import java.util.*;
 
